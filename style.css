@@ -1,10 +1,18 @@
 .headear-section{
     height: 14vh;
-    background-color: #fff159;
+    background-color: #FFF15A;
 }
 .header-part{
     height: 7vh;
     text-align: center;
+}
+.img-home{
+    background-image: url(file:///C:/Users/Note-66/Documents/dodev/AulaCss/index.html);
+    margin-top: 1vh;
+    margin-left: 2vw;
+    height: 7vh;
+    width: 7vw;
+    float: left;
 }
 .search-bar{
     height: 5vh;
@@ -18,15 +26,23 @@
 }
 .nav-options{
     margin-left: 2vw;
+    color: rgb(103, 102, 102);
+    text-decoration: none;
     vertical-align: middle;
     font-size: small;
     font-family: normal;
+}
+.nav-options:hover {
+    transition: 0.2s;
+    padding: 0.2%;
+    border-radius: 3px;
+    background-color: #ff990027
 }
 .first-nav-options{
     margin-left: 0vw;
 }
 .content{
-    height: 86vh;
+    height: 500px;
     background-color: #e0dfdf;
     text-align: center;    
 }
@@ -51,4 +67,51 @@
 }
 .offer-title{
     margin-top: 2vh;
+}
+.theForm{
+    height: 80vh;
+    width: 60vw;
+    background-color: white;
+    display: inline-block;
+    text-align: left;
+}
+.contentTitle{
+    width: 20vw;
+    margin-left: 20vw;
+    margin-top: 4vh;
+}
+.inputCad{
+    display: grid;
+    width: 15vw;
+    margin-top: 2vh;
+    margin-left: 22.5vw;
+}
+
+.marketingItens{
+    
+}
+.marketingItem{
+    height: 270px;
+    width: 230px;
+    margin-top: 2vh;
+    margin-right: 1vw;
+    border-radius: 2vw;
+    background-color: white;
+    float: left;
+}
+.imgItem{
+    margin-top: 3vh;
+    border-bottom: solid 0.3vh rgb(151, 151, 188);
+} 
+.primeiroItem{
+margin-left: 7vw;
+}
+.oldPrice{
+    display: none;
+}
+.marketingItem:hover{
+    height: 330px;
+}
+.marketingItem:hover .oldPrice{
+    display: inline;
 }
